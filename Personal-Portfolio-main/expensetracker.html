@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Management System</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        header {
+            background-color: #007bff; /* Header background color */
+            color: white; /* Header text color */
+            padding: 15px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .description {
+            margin: 20px 0;
+            text-align: center;
+            color: #555;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two images in one row */
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .image-container {
+            border: 2px solid #007bff; /* Border color */
+            border-radius: 10px; /* Border radius */
+            overflow: hidden; /* Ensure the image respects the border radius */
+            transition: transform 0.3s ease; /* Smooth transition for hover effect */
+        }
+        .image-container:hover {
+            transform: scale(1.05); /* Scale effect on hover */
+        }
+        .image-container img {
+            width: 100%;
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 0; /* Remove border radius from image */
+        }
+        footer {
+            background-color: #343a40; /* Footer background color */
+            color: white; /* Footer text color */
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Expense Management System</h1>
+    </header>
+
+    <div class="container">
+        <div class="description">
+            <p>
+                The Expense Management System is designed to help users efficiently track and manage their expenses. With a user-friendly interface, users can categorize their spending, set budgets, and visualize their financial data through informative charts and reports. This application aims to promote better financial awareness and help individuals make informed decisions about their spending habits. Whether you're managing personal finances or tracking business expenses, this system provides all the tools you need to stay on top of your financial goals.
+            </p>
+        </div>
+
+        <div class="image-grid">
+            <div class="image-container">
+                <img src="images/Screenshot 2024-10-30 015422.png" alt="Expense Management Screenshot 1">
+            </div>
+            <div class="image-container">
+                <img src="images/Screenshot 2024-10-30 015523.png" alt="Expense Management Screenshot 2">
+            </div>
+            <div class="image-container">
+                <img src="images/Screenshot 2024-10-30 015546.png" alt="Expense Management Screenshot 3">
+            </div>
+            <div class="image-container">
+                <img src="images/Screenshot 2024-10-30 015621.png" alt="Expense Management Screenshot 4">
+            </div>
+            <div class="image-container">
+                <img src="images/Screenshot 2024-10-30 015645.png" alt="Expense Management Screenshot 5">
+            </div>
+            <div class="image-container">
+                <img src="images/Screenshot 2024-10-30 015705.png" alt="Expense Management Screenshot 6">
+            </div>
+            <div class="image-container">
+                <img src="images/Screenshot 2024-10-30 015805.png" alt="Expense Management Screenshot 7">
+            </div>
+            <div class="image-container">
+                <img src="images/Screenshot 2024-10-30 090414.png" alt="Expense Management Screenshot 8">
+            </div>
+            <div class="image-container">
+                <img src="images/Screenshot 2024-10-30 090439.png" alt="Expense Management Screenshot 9">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>All rights reserved © Ayush Yadav &#169;</p>
+    </footer>
+</body>
+</html>
